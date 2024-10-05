@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(46, 44, 40);
+    color: #333;
+    margin: 0;
+    padding: 0px;
+}
+
+/* Encabezado */
+header {
+    background-image: url(metal-dumbbells-with-background-blurred-gym-interior-free-photo.jpg); /* Asegúrate de cambiar esta ruta */
+    background-size: cover; /* Asegura que la imagen cubra todo el área */
+    background-position: center; /* Centra la imagen */
+    margin: 5vh;
+    display: flex;
+    justify-content: center;
+    border: 5px double #000;
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno (opcional)s */
+    background-color: #f0f0f0; /* Color de fondo (opcional) */
+}
+
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    margin: 3px;
+    padding: 3px;
+    border-radius: 10px;
+    border: hidden rgb(0, 0, 0);
+    color: darkgoldenrod;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Navegación */
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0;
+    border: #333;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 15px;
+    color: #000000;
+    transition: background-color 0.5s ease;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover {
+    color: darkgoldenrod;
+    transition: ease;
+}
+
+/* Publicidad de entrenamiento */
+
+.contenedor-inicio {
+    display: flex;
+    justify-content: center;
+}
+
+.entrena {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: darkgoldenrod;
+    border: #000 hidden;
+    border-radius: 30px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    background-image: url(ven-entrena.jpg);
+    height: 400px;
+    width: 1500px;  
+}
+
+/* Pie de página*/
+
+/* Pie de página */
+.contenedor-footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+footer { 
+    display: flex;
+    justify-content: center;
+    background: dimgray; 
+    color: #ffffff;  
+    padding: 10px;  
+    margin: 10px; 
+    border-radius: 20px;
+    width: 1000px; 
+}
